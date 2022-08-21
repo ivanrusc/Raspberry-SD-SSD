@@ -1,1 +1,14 @@
 # Raspberry Pi 4 amb SSD
+
+sudo apt update
+sudo apt upgrade -y
+sudo raspy-config
+ > Advanced Options
+   > Bootloader Version
+     > E1 Latest Use the latest version boot ROM software
+ > Advanced Options
+   > Boot Orden
+     > B1 USB Boot    Boot from USB device if SD card boot fails
+ <Finish>
+
+sudo shutdown -P now
